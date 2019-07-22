@@ -1,0 +1,43 @@
+{
+  "name": "zoho",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.2.1",
+    "axios": "^0.18.0",
+    "json-bigint": "^0.3.0",
+    "moment": "^2.24.0",
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-native": "0.59.2",
+    "react-native-background-job": "^2.2.0",
+    "react-native-background-timer": "^2.1.1",
+    "react-native-fs": "^2.13.3",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-image-picker": "^0.28.1",
+    "react-native-render-html": "^4.1.2",
+    "react-native-signature-capture": "^0.4.9",
+    "react-native-simple-radio-button": "^2.7.3",
+    "react-native-table-component": "^1.2.0",
+    "react-navigation": "^3.5.1",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "rn-fetch-blob": "^0.10.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/runtime": "^7.4.0",
+    "babel-jest": "^24.5.0",
+    "jest": "^24.5.0",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

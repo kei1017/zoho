@@ -1,0 +1,5 @@
+export const SET_SETTINGS = "SET_SETTINGS";
+export const SET_USER = "SET_USER";
+export const SET_LOGISTICS= "SET_LOGISTICS";
+export const SELECT_LOGISTIC= "SELECT_LOGISTIC";
+export const SYNC_UP_ACTIVE= "SYNC_UP_ACTIVE";
